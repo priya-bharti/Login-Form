@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.knowurcodes.musicplayer.SignUp"
+    android:id="@+id/signUpFragment"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+        <EditText
+            android:id="@+id/Enter_Name_Edit_Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/Enter_Name_hint"
+            android:inputType="textPersonName"
+            />
+
+        <EditText
+            android:id="@+id/Enter_Password_Edit_Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/Enter_Password_hint"
+            android:inputType="textWebPassword" />
+
+        <EditText
+            android:id="@+id/Enter_Email_Edit_Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/Enter_Email_hint"
+            android:inputType="textEmailAddress|textWebEmailAddress" />
+
+        <EditText
+            android:id="@+id/Enter_Phone_Edit_Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/Enter_Phone_hint"
+            android:inputType="number|phone" />
+
+        <Button
+            android:id="@+id/SignUpFirebase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Sign_Up_text_view" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ForgotPassword"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:text="@string/Forgot_Pass_text_view"
+            android:clickable="true"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/SignIn"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:text="@string/A_new_user_text_view"
+            android:textSize="20sp"
+            android:clickable="true"/>
+
+
+    </LinearLayout>
+
